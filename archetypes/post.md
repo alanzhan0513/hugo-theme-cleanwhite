@@ -1,10 +1,11 @@
 ---
-title:       "An Example Post"
+title:       "{{ replace .Name "-" " " | title }}"
 subtitle:    ""
 description: ""
-date:        2018-06-04
-author:      ""
-image:       ""
-tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+date:        {{ .Date }}
+draft:       true
+author:      "Alan Zhan"
+tags:        [ "", "" ]
+categories:  [ "" ]
+keywords:    [ "alan", "zhan", "blog" ]
 ---
