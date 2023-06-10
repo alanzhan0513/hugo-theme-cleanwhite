@@ -86,6 +86,7 @@ home = ["HTML", "RSS", "Algolia"]
   #keybase       = "full profile url in keybase"
   #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"
+  #youtube       = "full channel url in youtube"
   
   [[params.friend_link]]
   title = "Linda的博客"
